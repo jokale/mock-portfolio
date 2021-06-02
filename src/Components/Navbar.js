@@ -6,7 +6,13 @@ import styled from 'styled-components'
 const Nav = styled.div ` 
 height: 100px;
 background-color: white;
-position: sticky;
+position: fixed;
+z-index: 1;
+width: 100%;
+padding-left: 40px;
+/* border: 1px solid blue; */
+top: 0px;
+
 `
 
 const HomeTitle = styled.a`
@@ -15,10 +21,12 @@ left: 40px;
 font-family: 'Source Sans Pro', sans-serif;
 padding-top: 45px;
 font-size: 1.4rem;
-border: 1px solid red;
+/* border: 1px solid red; */
 width: 100%;
 text-decoration: none;
 color: black;
+background-color: white;
+
 `
 
 const RestNavOne = styled.a `
@@ -61,7 +69,7 @@ function Navbar() {
                <RestNavThree><NavLink to="/projects" exact  >PROJECTS</NavLink></RestNavThree>
                  <RestNavFour><NavLink to="/contact" exact>CONTACT</NavLink></RestNavFour>
        
-</Nav>
+        </Nav>
       </div>
     );
   }
