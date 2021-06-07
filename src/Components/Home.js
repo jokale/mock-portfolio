@@ -84,6 +84,7 @@ border-radius: 50%;
 width: 60%;
 height: 50%
 `
+/* const Subhead */
 
 function Home() {
     return (
