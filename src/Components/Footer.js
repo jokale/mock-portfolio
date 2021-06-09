@@ -12,6 +12,8 @@ top: -650px;
 height: 90px;
 left: 0px;
 padding-left: 40px;
+flex-shrink: 0;
+/* padding: 20px; */
 
 @media (max-width: 1440px) {
   left: 0px;

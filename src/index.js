@@ -8,6 +8,8 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Project from './Components/Project';
 import Resume from './Components/Resume';
+import Contact from './Components/Contact';
+
 
 
 ReactDOM.render(
@@ -15,9 +17,11 @@ ReactDOM.render(
     <App />
     <Navbar/>
     <Route exact path="/" component={Home} />
-    <Route exact path="/about" component={About} />
-    <Route exact path="/work" component={Project} />
-    <Route exact path="/work" component={Resume} />
+    <Route exact path="/about-me" component={About} />
+    <Route exact path="/projects" component={Project} />
+    <Route exact path="/resume" component={Resume} />
+    <Route exact path="/contact" component={Contact} />
+
   </Router>,
   document.getElementById('root')
 );
