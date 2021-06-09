@@ -1,21 +1,27 @@
 import React from 'react';
 import styled from 'styled-components'
 import model from '../Images/model.png'
+import Footer from './Footer';
+
+
+
 
 const FirstDiv = styled.div `
 background-color: #E6DACE;
 position: relative;
 left: 0px;
 width: 40%;
-height: 1000px;
+height: 900px;
 z-index: -1;
+max-height: 1000px;
+max-width: 40%;
 `
 
 const PicDiv = styled.div `
 
 position: relative;
 left: 500px;
-top: 150px;
+top: 100px;
 background-color: #F4ECE6;
 display: flex;
 justify-content: center;
@@ -98,7 +104,9 @@ function Home() {
         <ProjectBtn><a href="/projects">PROJECTS</a></ProjectBtn>
         <FinalParagraph>I'm a paragraph. Click here to add your own text <br></br>and edit me. It’s easy. Just click “Edit Text” or <br></br> double click me to add your own content and <br></br>make changes to the font. <br></br>
         <br></br>I’m a great place for you to tell a story and let <br></br>your users know a little more about you.</FinalParagraph>
+      <Footer/>
       </div>
+
     );
   }
   
