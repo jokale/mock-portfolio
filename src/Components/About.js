@@ -8,7 +8,7 @@ const Header = styled.h1 ` color: pink
 function About() {
     return (
       <div className="About">
-      <Header>Hello</Header>
+      <Header></Header>
         <h1>hello</h1>
         <Footer/>
       </div>
