@@ -64,7 +64,7 @@ function Navbar() {
       <div className="Navbar">
          <Nav>
          <HomeTitle> <NavLink to="/" exact>Liezel  Frank / PROJECT MANAGER </NavLink></HomeTitle>
-           <RestNavOne><NavLink to="/about-me" exact  >ABOUT ME</NavLink> </RestNavOne>
+           <RestNavOne><NavLink to="/" exact  >ABOUT ME</NavLink> </RestNavOne>
             <RestNavTwo><NavLink to="/resume" exact >RESUME</NavLink></RestNavTwo>
                <RestNavThree><NavLink to="/projects" exact  >PROJECTS</NavLink></RestNavThree>
                  <RestNavFour><NavLink to="/contact" exact>CONTACT</NavLink></RestNavFour>
